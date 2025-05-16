@@ -23,7 +23,7 @@ const Profile = () => {
     const dataUrl = canvas.toDataURL('image/png');
     const link = document.createElement('a');
     link.href = dataUrl;
-    link.download = 'profile-card.png';
+    link.download = 'The_Curve_Africa_Student_Profile.png';
     link.click();
   };
 
