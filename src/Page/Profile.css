@@ -1,0 +1,115 @@
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    height: 100vh;
+    width: 100vw;
+    background: white;
+    font-family: sans-serif;
+  }
+  
+  .profile-card {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .logo {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 96px;
+    object-fit: contain;
+  }
+
+  .prfile-image-conainer{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+  }
+  
+  .profile-image img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid #facc15;
+    object-fit: cover;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #202020;
+    margin-top: 10px;
+  }
+  
+  .profile-cohort {
+    color: #6b7280;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .profile-role {
+    color: #facc15;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .social-links {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  
+  .social-links .icons {
+    display: flex;
+    gap: 16px;
+    color: #0C2543;
+    font-size: 18px;
+  }
+  
+  .social-links .handle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0C2543;
+  }
+  
+  .download-button {
+    /* margin-left: 40px; */
+    padding: 10px 16px;
+    background-color: #FDC700;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #edba03;
+  }
+  
